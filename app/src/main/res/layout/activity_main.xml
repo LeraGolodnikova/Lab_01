@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D8BDEA"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+
+    `
+
+    <EditText
+        android:id="@+id/a"
+        android:layout_width="240dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="148dp"
+        android:ems="10"
+        android:fontFamily="@font/comfortaa"
+        android:hint="@string/firstNumber"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.66"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/res"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="288dp"
+        android:fontFamily="@font/comfortaa"
+        android:text="@string/vivodRes"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.439"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="228dp"
+        android:fontFamily="@font/comfortaa"
+        android:text="@string/b"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="288dp"
+        android:fontFamily="@font/comfortaa"
+        android:text="@string/res"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/div"
+        android:layout_width="130dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="420dp"
+        android:backgroundTint="#613571"
+        android:fontFamily="@font/comfortaa"
+        android:onClick="All_Click"
+        android:text="Div"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.793"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/sub"
+        android:layout_width="130dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="344dp"
+        android:backgroundTint="#613571"
+        android:fontFamily="@font/comfortaa"
+        android:onClick="All_Click"
+        android:text="Sub"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.793"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/mul"
+        android:layout_width="130dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="420dp"
+        android:backgroundTint="#613571"
+        android:fontFamily="@font/comfortaa"
+        android:onClick="All_Click"
+        android:text="Mul"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="156dp"
+        android:fontFamily="@font/comfortaa"
+        android:text="@string/a"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="130dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="344dp"
+        android:backgroundTint="#613571"
+        android:fontFamily="@font/comfortaa"
+        android:onClick="All_Click"
+        android:text="Add"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/b"
+        android:layout_width="240dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="216dp"
+        android:ems="10"
+        android:fontFamily="@font/comfortaa"
+        android:hint="@string/secondNumber"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.66"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

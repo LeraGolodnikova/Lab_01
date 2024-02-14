@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">lab_01</string>
+    <string name="a">a:</string>
+    <string name="b">b:</string>
+    <string name="firstNumber">Введите первое число</string>
+    <string name="secondNumber">Введите второе число</string>
+    <string name="res">Results:</string>
+    <string name="vivodRes">...</string>
+</resources>
