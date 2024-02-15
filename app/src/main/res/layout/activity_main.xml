@@ -14,7 +14,7 @@
         android:id="@+id/a"
         android:layout_width="240dp"
         android:layout_height="52dp"
-        android:layout_marginTop="148dp"
+        android:layout_marginTop="104dp"
         android:ems="10"
         android:fontFamily="@font/comfortaa"
         android:hint="@string/firstNumber"
@@ -25,53 +25,14 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/res"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="288dp"
-        android:fontFamily="@font/comfortaa"
-        android:text="@string/vivodRes"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.439"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="56dp"
-        android:layout_marginTop="228dp"
+        android:layout_marginTop="184dp"
         android:fontFamily="@font/comfortaa"
         android:text="@string/b"
         android:textSize="20sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="56dp"
-        android:layout_marginTop="288dp"
-        android:fontFamily="@font/comfortaa"
-        android:text="@string/res"
-        android:textSize="20sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/div"
-        android:layout_width="130dp"
-        android:layout_height="56dp"
-        android:layout_marginTop="420dp"
-        android:backgroundTint="#613571"
-        android:fontFamily="@font/comfortaa"
-        android:onClick="All_Click"
-        android:text="Div"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.793"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -79,7 +40,7 @@
         android:id="@+id/sub"
         android:layout_width="130dp"
         android:layout_height="56dp"
-        android:layout_marginTop="344dp"
+        android:layout_marginTop="300dp"
         android:backgroundTint="#613571"
         android:fontFamily="@font/comfortaa"
         android:onClick="All_Click"
@@ -90,15 +51,16 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/mul"
+        android:id="@+id/cos"
         android:layout_width="130dp"
         android:layout_height="56dp"
-        android:layout_marginStart="56dp"
-        android:layout_marginTop="420dp"
+        android:layout_marginTop="452dp"
         android:backgroundTint="#613571"
         android:fontFamily="@font/comfortaa"
         android:onClick="All_Click"
-        android:text="Mul"
+        android:text="Cos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.793"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -107,10 +69,23 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="56dp"
-        android:layout_marginTop="156dp"
+        android:layout_marginTop="112dp"
         android:fontFamily="@font/comfortaa"
         android:text="@string/a"
         android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/mul"
+        android:layout_width="130dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="376dp"
+        android:backgroundTint="#613571"
+        android:fontFamily="@font/comfortaa"
+        android:onClick="All_Click"
+        android:text="Mul"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -119,7 +94,7 @@
         android:layout_width="130dp"
         android:layout_height="56dp"
         android:layout_marginStart="56dp"
-        android:layout_marginTop="344dp"
+        android:layout_marginTop="300dp"
         android:backgroundTint="#613571"
         android:fontFamily="@font/comfortaa"
         android:onClick="All_Click"
@@ -131,13 +106,95 @@
         android:id="@+id/b"
         android:layout_width="240dp"
         android:layout_height="52dp"
-        android:layout_marginTop="216dp"
+        android:layout_marginTop="172dp"
         android:ems="10"
         android:fontFamily="@font/comfortaa"
         android:hint="@string/secondNumber"
         android:inputType="numberDecimal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.66"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/sqrt"
+        android:layout_width="130dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="528dp"
+        android:backgroundTint="#613571"
+        android:fontFamily="@font/comfortaa"
+        android:onClick="All_Click"
+        android:text="Sqrt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.793"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/pow"
+        android:layout_width="130dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="600dp"
+        android:backgroundTint="#613571"
+        android:fontFamily="@font/comfortaa"
+        android:onClick="All_Click"
+        android:text="Pow(2)"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/sin"
+        android:layout_width="130dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="452dp"
+        android:backgroundTint="#613571"
+        android:fontFamily="@font/comfortaa"
+        android:onClick="All_Click"
+        android:text="Sin"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/div"
+        android:layout_width="130dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="376dp"
+        android:backgroundTint="#613571"
+        android:fontFamily="@font/comfortaa"
+        android:onClick="All_Click"
+        android:text="Div"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.793"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/res"
+        android:layout_width="297dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="244dp"
+        android:fontFamily="@font/comfortaa"
+        android:text="@string/res"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Result" />
+
+    <Button
+        android:id="@+id/tan"
+        android:layout_width="130dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="528dp"
+        android:backgroundTint="#613571"
+        android:fontFamily="@font/comfortaa"
+        android:onClick="All_Click"
+        android:text="Tan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.199"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
